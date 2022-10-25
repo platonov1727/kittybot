@@ -8,10 +8,6 @@ import requests
 from telegram import ReplyKeyboardMarkup
 from telegram.ext import CommandHandler, Updater
 
-from dotenv import load_dotenv 
-
-load_dotenv()
-
 secret_token = os.getenv('TOKEN')
 
 logging.basicConfig(
